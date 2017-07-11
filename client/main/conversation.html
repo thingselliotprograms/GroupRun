@@ -1,0 +1,14 @@
+﻿<div>
+    <h3  id="convtitle">{{currentgroup}} conversation</h3>
+    <div id="messagelist">
+        <div ng-model="conversation" ng-repeat="message in messages" class="conversation" ng-class="{mymsg: (message.sentBy.name | user)==='Me'}" repeat-directive>
+            <p>{{message.body}}</p>
+            <p class="sentby">{{message.sentBy.name | user}} at {{message.sentAt | date: 'MM-dd HH:mm'}}</p>
+        </div>
+    </div>
+    <form class="form-inline" ng-submit="vm.newMsg()" id="msgsubmit">
+        <input type="text" class="form-control" ng-model="vm.msg.body" id="msgbox" placeholder="New Message" />
+        <input type="submit" class="btn btn-default" value="Send" />
+    </form>
+</div>
+

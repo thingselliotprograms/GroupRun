@@ -1,0 +1,16 @@
+﻿<div id="mainpage">
+    <h2 id="welcome">Welcome to GroupRun {{username}}</h2>
+    <h3 id="showyourruns"><span>Add your runs<span class="glyphicon glyphicon-arrow-up"></span></span></h3>
+    <div id="logoutbutton"><a href="/logout" class="btn btn-default btn-md">Logout</a></div>
+    <h2 ng-show="currentgroup===''">You are not in a group currently. <a href="/groups">Manage Groups</a></h2>
+    <div id="instructions" ng-show="currentgroup!==''">
+        <h2>Current Group: {{currentgroup}}</h2>
+        <h2>Group Calendar: <a href="/groupcalendar"><span class="glyphicon glyphicon-calendar"></span></a></h2>
+        <h2>Group Video Chat: <a href="/videochat"><span class="glyphicon glyphicon-facetime-video"></span></a></h2>
+        <h2>Group Messages: <a href="/groupconversation"><span class="glyphicon glyphicon-comment"></span></a></h2>
+        <h2>Group Routes: <a href="/routes"><span class="glyphicon glyphicon-retweet"></span></a></h2>
+        <h2>Group Challenges: <a href="/challenges"><span class="glyphicon glyphicon-stats"></span></a></h2>
+    </div>
+</div>
+
+

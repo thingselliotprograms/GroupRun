@@ -1,0 +1,178 @@
+html, body {
+  background-color: ghostwhite;
+  height: 100%; }
+
+.navbar {
+  text-align: center;
+  color: white !important;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  .navbar li:hover {
+    background-color: white; }
+  .navbar .glyphicon {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px; }
+
+.navbar-nav a {
+  color: white !important; }
+
+.navbar-nav li a {
+  color: white !important; }
+
+.navbar-nav li:hover a {
+  color: #2196f3 !important; }
+
+.push {
+  height: 100px; }
+
+.authscreen h1, .authscreen h2 {
+  text-align: center; }
+
+.authlink {
+  margin-top: 30px; }
+  .authlink:hover {
+    background-color: lightskyblue;
+    color: white; }
+    .authlink:hover a {
+      text-decoration: none; }
+
+.biglink:hover {
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
+
+fieldset {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.list-group {
+  margin: 0; }
+
+#groups {
+  margin-left: 20px; }
+  #groups #joincol {
+    padding-right: 50px; }
+    #groups #joincol #joinsearch {
+      border-bottom: 1px solid black;
+      padding-bottom: 10px; }
+
+.list-group {
+  max-height: 500px; }
+
+#convtitle {
+  margin-left: 10%; }
+
+#messagelist {
+  width: 80%;
+  margin-left: 10%;
+  overflow: scroll;
+  max-height: 500px;
+  background-color: #e9e9e9; }
+  #messagelist .conversation {
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 3px;
+    max-width: 70%;
+    clear: both;
+    display: block;
+    margin: 10px;
+    float: left; }
+    #messagelist .conversation p {
+      margin-left: 10px;
+      margin-right: 10px; }
+    #messagelist .conversation .sentby {
+      color: #999292; }
+  #messagelist .mymsg {
+    background-color: white;
+    float: right;
+    margin-bottom: 13px; }
+
+#msgsubmit {
+  width: 80%;
+  margin-right: 10%;
+  float: right;
+  margin-top: 20px; }
+  #msgsubmit #msgbox {
+    width: 50%; }
+
+#topbar {
+  background-color: #2196f3;
+  padding: 30px 20px 20px 20px;
+  margin-top: -10px;
+  border-radius: 3px; }
+  #topbar #title {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 4px; }
+  #topbar h2 {
+    display: inline; }
+  #topbar h3 {
+    float: right;
+    display: inline; }
+
+#room-controls {
+  margin-left: 50px !important; }
+  #room-controls #roomname {
+    text-align: center; }
+  #room-controls button {
+    height: initial !important; }
+
+#preview button {
+  width: inherit !important; }
+
+.userlink {
+  float: right; }
+  .userlink h4 {
+    display: inline;
+    margin-right: 10px; }
+
+#runaddbutton {
+  margin-left: 20px; }
+
+.group-button {
+  margin-left: 10px;
+  height: 40px;
+  vertical-align: top; }
+
+.group-input {
+  height: 40px; }
+
+#mainpage {
+  padding-top: 20px;
+  margin-left: 20px; }
+  #mainpage #welcome {
+    margin-top: 20px; }
+  #mainpage #welcome, #mainpage #showyourruns {
+    display: inline; }
+  #mainpage #showyourruns {
+    float: right;
+    margin-right: 20px;
+    margin-top: 0; }
+  #mainpage #logoutbutton {
+    margin-top: 10px; }
+  #mainpage #instructions .glyphicon {
+    vertical-align: text-bottom;
+    padding-left: 10px; }
+
+#routes h3, #routes form, #challenges h3, #challenges form {
+  margin-left: 20px; }
+
+#routes input, #challenges input {
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+#routes form div label, #challenges form div label {
+  width: inherit; }
+
+#routes form {
+  display: table-caption; }

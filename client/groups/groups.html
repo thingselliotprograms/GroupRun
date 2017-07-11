@@ -1,0 +1,44 @@
+﻿<div class="main" id="groups">
+    <h1>Manage Your Groups</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Switch Group</h2>
+            <div class="btn-group">
+                <!--
+                <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    <span class="caret"></span>
+                </a>
+                    -->
+                <div class="list-group overflow-scroll-y" ng-repeat="group in groups">
+                    <a href="#" class="list-group-item" ng-click="switchGroup(group)">{{group.name}}</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4" id="joincol">
+            <h2>Join a Group</h2>
+            <form ng-submit="vm.groupSearch()" class="form-group" id="joinsearch">
+                <input type="text" ng-change="vm.groupSearch()" class="group-input" placeholder="Search for Groups" ng-model="vm.joinGroup" />
+            </form>
+            <div class="list-group overflow-scroll-y" style="width:inherit" ng-repeat="result in searchresults">
+                <a class="list-group-item" ng-click="joinGroup(result)">{{result.name}}</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Create a group</h2>
+            <div class="form-container">
+                <form ng-submit="vm.onCreate()" class="form-group">
+                    <input class="group-input" type="text" placeholder="Group Name" ng-model="vm.submitButton.newGroup" />
+                    <input class="btn group-button" type="submit" value="Create Group" />
+                </form>
+            </div>
+            {{submitbutton.newgroup}}
+        </div>
+    
+    </div>
+
+    </div>
+

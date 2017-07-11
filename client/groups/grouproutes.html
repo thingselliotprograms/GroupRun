@@ -1,0 +1,31 @@
+﻿
+<div id="routes">
+    <h3>
+        Add a Route
+    </h3>
+    <form ng-submit="addRoute()" class="form-inline">
+        <div class="form-group">
+            <label class="col-lg-2 control-label">Route Name:</label>
+            <input type="text" id="inputRunDis" ng-model="newRoute.routeName" min="0" step="any" required/>
+        </div>
+        <div class="form-group">
+            <label for="inputRunDate" class="col-lg-2 control-label">Date:</label>
+            <input type="text" id="inputRunDate" name="userrundate" ng-model="newRoute.date" required />
+        </div>
+        <div class="form-group">
+            <label for="inputRunDis" class="col-lg-2 control-label">Distance:</label>
+            <input type="number" id="inputRunDis" ng-model="newRoute.distance" min="0" step="any" />
+        </div>
+        <input type="submit" value="Add Route" id="routeaddbutton" class="btn btn-default" />
+    </form>
+
+</div>
+
+<script type="text/javascript">
+$(function() {
+    $('input[name="userrundate"]').daterangepicker({
+        singleDatePicker: true
+        
+    });
+});
+</script>
