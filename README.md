@@ -10,3 +10,5 @@ For each group a user joins / creates, they can view the group's calendar, displ
 
 Instant messaging between all members of the group is achieved using the SocketIO (https://socket.io/) npm module:
 <img src="https://github.com/thingselliotprograms/GroupRun/blob/master/siteimages/conversation.png" width="100%" />
+
+Video chat is made possible in Chrome with the Twilio Video SDKs (https://www.twilio.com/video):
