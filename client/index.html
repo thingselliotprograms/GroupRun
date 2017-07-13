@@ -19,7 +19,8 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
-
+    <!--Dev Icons-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 <body>
@@ -27,6 +28,7 @@
         <div class="screen">
             <div id="topbar" ng-controller="navCtrl">
                 <h2><a href="/" id="title">GroupRun</a></h2>
+                <div id="siteinfo" ><span class="glyphicon glyphicon-info-sign"></span><div id="builtinfo"><h4>Built Using</h4><i class="devicon-nodejs-plain"></i><i class="devicon-angularjs-plain"></i><i class="devicon-mongodb-plain-wordmark"></i><i class="devicon-express-original"></i><img src="http://www.programwitherik.com/content/images/2017/01/socket-e1434850599985.png" style="margin-left:5px;height:30px;vertical-align:text-top"/><img src="https://s3.amazonaws.com/ahoy-assets.twilio.com/global/images/wordmark.svg" style="margin-left:5px;height:30px;vertical-align:text-top" /></div></div>
                 <a href="/userruns" class="btn btn-default btn-lg userlink" ng-show="currentuser"><h4>{{currentuser}}</h4><span class="glyphicon glyphicon-calendar"></span></a>
                 
                 <span class="glyphicon glyphicons-person-running"></span>

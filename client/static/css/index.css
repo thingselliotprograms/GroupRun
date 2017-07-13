@@ -176,3 +176,22 @@ fieldset {
 
 #routes form {
   display: table-caption; }
+
+#siteinfo {
+  display: inline;
+  margin-left: 20px;
+  color: white !important;
+  font-size: 30px; }
+  #siteinfo span {
+    display: inline; }
+  #siteinfo #builtinfo {
+    display: none;
+    vertical-align: top;
+    margin-left: 10px; }
+  #siteinfo:hover #builtinfo, #siteinfo:hover h4 {
+    display: inline;
+    color: white; }
+  #siteinfo:hover h4 {
+    vertical-align: text-top; }
+  #siteinfo:hover #builtinfo i {
+    margin-left: 5px; }

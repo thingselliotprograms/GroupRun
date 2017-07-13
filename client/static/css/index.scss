@@ -265,3 +265,37 @@ fieldset {
         display:table-caption;
     }
 }
+
+#siteinfo {
+    display: inline;
+    margin-left: 20px;
+    color: white !important;
+    font-size: 30px;
+
+    span {
+        display: inline;
+    }
+
+    #builtinfo {
+        display: none;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+
+    &:hover {
+        #builtinfo, h4 {
+            display: inline;
+            color: white;
+        }
+
+        h4 {
+            vertical-align: text-top;
+        }
+
+        #builtinfo {
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
