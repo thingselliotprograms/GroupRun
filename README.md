@@ -5,7 +5,7 @@ GroupRun is a MEAN stack project, storing user / group data in a MongoDB databas
 Users have a streamlined calendar running entry module derived from the https://fullcalendar.io/ opensource module.
 <img src="https://github.com/thingselliotprograms/GroupRun/blob/master/siteimages/runningcal2.png" width="100%" />
 
-For each group a user joins / creates, they can view the group's calendar, displaying every members runs in a simple format:
+For each group a user joins / creates, they can view the group's calendar, displaying every member's runs in a simple format:
 <img src="https://github.com/thingselliotprograms/GroupRun/blob/master/siteimages/groupcal.png" width="100%" />
 
 Instant messaging between all members of the group is achieved using the SocketIO (https://socket.io/) npm module:
