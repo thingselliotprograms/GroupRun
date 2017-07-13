@@ -14,3 +14,6 @@ Instant messaging between all members of the group is achieved using the SocketI
 
 Video chat is made possible in Chrome with the Twilio Video SDKs (https://www.twilio.com/video):
 <img src="https://github.com/thingselliotprograms/GroupRun/blob/master/siteimages/videochat.png" width="100%" />
+
+Routes and Challenges are still in progress. When complete, Routes will allow users to enter proposed runs, including links and thumbnails to MapMyRun-created routes, that will notify other members of the group so that they can vote and decide as a group formally.
+Challenges will enable users to post competitions for specified date ranges within the group; i.e. the user with the most miles in a week, or the fastest average pace, etc. Winners will be awarded prizes and tracked within the site for additional incentive.
